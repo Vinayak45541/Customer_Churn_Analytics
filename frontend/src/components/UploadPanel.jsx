@@ -11,7 +11,7 @@ const UploadPanel = ({ onSuccess, onError, loading, setLoading }) => {
         const formData = new FormData();
         formData.append('file', file);
         try {
-            const res = await fetch('http://localhost:8000/analyze', { method: 'POST', body: formData });
+            const res = await fetch(`${import.meta.env.VITE_API_BASE_URL}/analyze`, { method: 'POST', body: formData });
             if (!res.ok) { const e = await res.json(); throw new Error(e.error || 'Analysis failed'); }
             onSuccess({ data: await res.json(), fileName: file.name });
         } catch (err) { onError(err.message); }

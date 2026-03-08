@@ -15,7 +15,7 @@ const CsvModal = ({ file, onClose }) => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        fetch(`http://localhost:8000/sample_data/${file}`)
+        fetch(`${import.meta.env.VITE_API_BASE_URL}/sample_data/${file}`)
             .then(r => r.text())
             .then(text => {
                 const lines = text.trim().split('\n');
@@ -108,13 +108,13 @@ const SampleDataDropdown = ({ onSuccess, onError, loading, setLoading }) => {
     const handleSelect = async (filename) => {
         setIsOpen(false); setLoading(true); onError(null);
         try {
-            const resFile = await fetch(`http://localhost:8000/sample_data/${filename}`);
+            const resFile = await fetch(`${import.meta.env.VITE_API_BASE_URL}/sample_data/${filename}`);
             if (!resFile.ok) throw new Error('Failed to load sample data');
             const blob = await resFile.blob();
             const file = new File([blob], filename, { type: 'text/csv' });
             const formData = new FormData();
             formData.append('file', file);
-            const res = await fetch('http://localhost:8000/analyze', { method: 'POST', body: formData });
+            const res = await fetch(`${import.meta.env.VITE_API_BASE_URL}/analyze`, { method: 'POST', body: formData });
             if (!res.ok) { const e = await res.json(); throw new Error(e.error || 'Analysis failed'); }
             onSuccess({ data: await res.json(), fileName: filename });
         } catch (err) { onError(err.message); }

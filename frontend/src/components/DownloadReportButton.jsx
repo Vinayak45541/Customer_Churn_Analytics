@@ -1,7 +1,7 @@
 const DownloadReportButton = () => {
     const handleDownload = async () => {
         try {
-            const res = await fetch('http://localhost:8000/download_report');
+            const res = await fetch(`${import.meta.env.VITE_API_BASE_URL}/download_report`);
             if (!res.ok) throw new Error('Report not found. Run an analysis first.');
             const blob = await res.blob();
             const url = window.URL.createObjectURL(blob);
