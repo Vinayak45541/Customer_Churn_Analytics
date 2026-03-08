@@ -10,7 +10,7 @@ The system allows users to upload customer datasets, run ML inference, and insta
 
 Try the deployed application here:
 
-🔗 **Live App:** *(paste your deployed link here)*
+🔗 **Live App:**  https://customer-churn-analytics-frontend.onrender.com
 
 ### Quick Test
 
