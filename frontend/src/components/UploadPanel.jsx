@@ -13,7 +13,7 @@ const UploadPanel = ({ onSuccess, onError, loading, setLoading }) => {
         try {
             const res = await fetch('http://localhost:8000/analyze', { method: 'POST', body: formData });
             if (!res.ok) { const e = await res.json(); throw new Error(e.error || 'Analysis failed'); }
-            onSuccess(await res.json());
+            onSuccess({ data: await res.json(), fileName: file.name });
         } catch (err) { onError(err.message); }
         finally { setLoading(false); if (fileInputRef.current) fileInputRef.current.value = ''; }
     };

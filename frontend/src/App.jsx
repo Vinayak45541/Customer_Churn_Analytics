@@ -7,16 +7,18 @@ import DownloadReportButton from './components/DownloadReportButton';
 
 function App() {
   const [analyticsData, setAnalyticsData] = useState(null);
+  const [analyzedFileName, setAnalyzedFileName] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  const handleAnalysisComplete = (data) => {
+  const handleAnalysisComplete = ({ data, fileName }) => {
     setAnalyticsData(data);
+    setAnalyzedFileName(fileName);
     setError(null);
   };
 
   const handleError = (msg) => setError(msg);
-  const handleReset = () => { setAnalyticsData(null); setError(null); };
+  const handleReset = () => { setAnalyticsData(null); setAnalyzedFileName(null); setError(null); };
 
   return (
     <div style={{ minHeight: '100vh', padding: '0' }}>
@@ -151,7 +153,17 @@ function App() {
                 <h2 style={{ margin: 0, fontSize: '1.3rem', fontWeight: 700, color: '#0f172a' }}>
                   📊 Analysis Results
                 </h2>
-                <p style={{ margin: '4px 0 0', color: '#64748b', fontSize: '0.875rem' }}>
+                {analyzedFileName && (
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginTop: 5, marginBottom: 2 }}>
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#6366f1" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" /><polyline points="14 2 14 8 20 8" />
+                    </svg>
+                    <span style={{ fontSize: '0.78rem', fontWeight: 600, color: '#6366f1', letterSpacing: '0.01em' }}>
+                      {analyzedFileName}
+                    </span>
+                  </div>
+                )}
+                <p style={{ margin: '2px 0 0', color: '#64748b', fontSize: '0.875rem' }}>
                   Based on <strong>{analyticsData.total_customers}</strong> customer records
                 </p>
               </div>
