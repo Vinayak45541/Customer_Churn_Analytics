@@ -1,0 +1,61 @@
+customerID,SeniorCitizen,Partner,Dependents,tenure,PhoneService,MultipleLines,InternetService,OnlineSecurity,OnlineBackup,DeviceProtection,TechSupport,StreamingTV,StreamingMovies,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges
+3528-QL624,0,Yes,Yes,44,Yes,Yes,DSL,Yes,No,Yes,No,Yes,No,Two year,No,Bank transfer (automatic),37.31,1595.2
+6132-2A2GL,0,Yes,No,72,Yes,No,DSL,Yes,Yes,No,Yes,No,Yes,One year,Yes,Bank transfer (automatic),42.28,3110.24
+6655-VVDKA,0,No,Yes,53,Yes,No,DSL,Yes,Yes,Yes,Yes,No,No,Two year,No,Credit card (automatic),39.89,2165.57
+5222-7E66H,0,Yes,No,54,No,No,DSL,Yes,No,Yes,Yes,No,No,One year,No,Bank transfer (automatic),46.23,2308.44
+8161-LRN3X,0,Yes,No,63,Yes,Yes,DSL,Yes,Yes,Yes,Yes,No,No,Two year,No,Credit card (automatic),45.88,2660.79
+0501-OLU92,0,Yes,Yes,53,Yes,No,DSL,Yes,Yes,Yes,Yes,Yes,No,Two year,Yes,Bank transfer (automatic),39.25,2082.35
+5817-87SVN,0,Yes,Yes,61,Yes,No,DSL,Yes,No,Yes,Yes,No,No,One year,No,Bank transfer (automatic),40.17,2342.3
+4918-IUTBR,0,No,No,58,Yes,Yes,DSL,Yes,Yes,Yes,Yes,No,No,Two year,Yes,Bank transfer (automatic),55.07,3116.88
+0995-10HCN,0,Yes,No,49,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,No,Yes,One year,No,Bank transfer (automatic),46.19,2331.93
+4467-UAMW6,0,Yes,Yes,42,Yes,No,DSL,No,No,No,Yes,No,No,Two year,No,Credit card (automatic),37.76,1580.06
+0743-5KITX,0,Yes,Yes,56,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,No,Bank transfer (automatic),53.51,3133.39
+1527-C4RHL,0,Yes,Yes,45,Yes,Yes,DSL,Yes,Yes,Yes,Yes,No,No,Two year,Yes,Bank transfer (automatic),47.84,2205.42
+7511-CTYD4,0,Yes,No,53,Yes,No,DSL,Yes,Yes,Yes,Yes,No,Yes,One year,No,Bank transfer (automatic),36.44,2012.0
+5821-U6POU,0,Yes,Yes,51,Yes,No,DSL,No,Yes,Yes,Yes,Yes,Yes,One year,No,Electronic check,32.84,1625.66
+0137-QXOVU,0,No,Yes,41,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,No,Bank transfer (automatic),35.48,1457.79
+0646-PECUY,0,No,Yes,59,Yes,No,DSL,Yes,Yes,Yes,Yes,No,Yes,Two year,Yes,Credit card (automatic),37.27,2294.88
+7101-6VD1W,0,Yes,Yes,62,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,Yes,No,One year,No,Bank transfer (automatic),45.53,3027.46
+8294-ZE58S,0,Yes,Yes,61,Yes,No,DSL,No,Yes,Yes,Yes,No,No,One year,No,Bank transfer (automatic),35.37,2288.44
+5066-32I2V,0,Yes,Yes,65,Yes,No,Fiber optic,Yes,No,Yes,Yes,No,No,One year,Yes,Bank transfer (automatic),33.23,2071.13
+0011-TSZST,0,Yes,No,61,Yes,No,Fiber optic,Yes,Yes,Yes,Yes,No,No,Two year,Yes,Bank transfer (automatic),41.96,2587.78
+5045-HH8PC,0,No,Yes,59,Yes,Yes,DSL,Yes,No,Yes,Yes,No,Yes,Two year,Yes,Credit card (automatic),26.31,1537.85
+1591-XURNH,0,Yes,Yes,44,Yes,No,Fiber optic,Yes,Yes,Yes,Yes,No,No,Two year,No,Credit card (automatic),44.36,2058.73
+2175-94Q92,1,No,Yes,47,Yes,Yes,DSL,Yes,Yes,No,Yes,No,Yes,Two year,No,Bank transfer (automatic),49.69,2462.34
+7639-TGP59,0,Yes,Yes,53,Yes,No,DSL,Yes,Yes,Yes,Yes,No,No,Two year,No,Credit card (automatic),40.01,2110.4
+4368-CZ5X7,0,Yes,No,51,Yes,Yes,DSL,Yes,Yes,No,Yes,No,No,Two year,No,Credit card (automatic),40.89,2026.42
+5398-HD0XM,0,No,No,52,Yes,Yes,DSL,Yes,Yes,No,Yes,Yes,No,Month-to-month,Yes,Bank transfer (automatic),38.86,1947.27
+0736-VU95Z,0,No,Yes,66,Yes,Yes,DSL,Yes,Yes,Yes,Yes,No,No,Two year,No,Credit card (automatic),53.28,3752.76
+5871-4D2RF,0,Yes,No,58,Yes,No,DSL,No,Yes,Yes,Yes,Yes,No,Two year,No,Credit card (automatic),44.86,2579.21
+2251-HJ1US,0,Yes,Yes,46,Yes,No,DSL,Yes,Yes,Yes,Yes,Yes,No,Two year,No,Mailed check,34.52,1511.4
+0676-SA8R7,0,Yes,Yes,66,Yes,Yes,DSL,Yes,No,Yes,Yes,No,No,One year,No,Bank transfer (automatic),51.41,3399.34
+4670-BESLL,0,Yes,Yes,51,Yes,No,DSL,Yes,Yes,Yes,No,No,Yes,Month-to-month,No,Bank transfer (automatic),36.44,1748.69
+8465-DZAZ2,0,Yes,Yes,62,Yes,No,DSL,Yes,Yes,Yes,Yes,No,No,Two year,Yes,Bank transfer (automatic),34.15,1996.18
+3566-FM61G,1,Yes,No,48,Yes,Yes,DSL,Yes,Yes,Yes,Yes,Yes,No,Two year,No,Bank transfer (automatic),43.54,2156.67
+5410-EWVWJ,0,No,No,59,Yes,Yes,DSL,Yes,Yes,Yes,Yes,No,Yes,One year,No,Bank transfer (automatic),45.41,2774.28
+3471-QYI16,0,Yes,No,49,Yes,Yes,DSL,Yes,Yes,Yes,Yes,No,Yes,Two year,Yes,Credit card (automatic),44.56,2121.29
+3339-XUK72,0,Yes,No,56,Yes,No,DSL,Yes,Yes,Yes,Yes,No,No,Two year,No,Credit card (automatic),19.26,1079.85
+2305-OCAE5,0,No,Yes,53,Yes,No,DSL,Yes,Yes,No,Yes,No,No,One year,No,Electronic check,55.46,2918.06
+9951-T5894,0,No,No,66,Yes,No,DSL,Yes,Yes,Yes,Yes,Yes,No,Two year,Yes,Bank transfer (automatic),40.47,2722.22
+0223-4IQJF,0,Yes,No,54,Yes,Yes,DSL,Yes,Yes,No,Yes,Yes,No,Two year,No,Mailed check,26.61,1382.41
+2299-90XKM,0,No,Yes,52,Yes,No,DSL,Yes,Yes,Yes,Yes,No,Yes,Two year,No,Bank transfer (automatic),27.68,1477.13
+4548-SNMTN,0,Yes,Yes,38,Yes,Yes,DSL,Yes,No,No,No,No,No,Two year,Yes,Mailed check,38.16,1406.46
+2680-34V07,0,Yes,No,60,Yes,No,Fiber optic,Yes,Yes,Yes,Yes,Yes,No,Two year,No,Credit card (automatic),32.64,1902.62
+0371-YJX7J,0,No,Yes,57,Yes,No,DSL,Yes,Yes,Yes,Yes,No,No,One year,No,Bank transfer (automatic),35.45,1873.99
+3486-MLYHJ,0,No,No,58,Yes,No,Fiber optic,Yes,Yes,Yes,Yes,No,No,Two year,Yes,Mailed check,38.78,2296.79
+3274-F3M6V,0,Yes,Yes,58,Yes,No,DSL,Yes,Yes,Yes,Yes,No,No,Two year,No,Electronic check,29.94,1763.61
+0065-J5TX1,0,Yes,No,58,Yes,No,DSL,Yes,Yes,Yes,Yes,No,No,One year,No,Mailed check,36.07,2176.13
+4310-3FUVD,0,No,Yes,65,Yes,No,DSL,Yes,Yes,Yes,Yes,No,No,One year,No,Bank transfer (automatic),45.54,3074.42
+4641-PG33W,0,Yes,No,50,Yes,Yes,DSL,Yes,Yes,Yes,Yes,No,No,Two year,Yes,Bank transfer (automatic),42.35,2063.66
+3311-OQJVO,0,Yes,Yes,46,No,No,DSL,Yes,Yes,Yes,Yes,No,No,Two year,No,Mailed check,43.96,2179.19
+8888-3JP2F,0,Yes,No,53,Yes,No,DSL,Yes,No,Yes,Yes,No,No,Two year,No,Credit card (automatic),36.46,2069.05
+5865-9CS7Y,0,No,Yes,50,Yes,No,DSL,No,Yes,Yes,Yes,Yes,No,Two year,No,Credit card (automatic),53.05,2645.82
+7315-72GYN,0,Yes,Yes,49,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,No,Yes,Two year,No,Bank transfer (automatic),33.46,1654.06
+2427-6HS8U,0,Yes,Yes,61,Yes,No,Fiber optic,Yes,No,Yes,Yes,Yes,No,One year,No,Credit card (automatic),47.25,2763.54
+7062-JIKH3,0,Yes,Yes,37,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Credit card (automatic),37.31,1351.85
+6367-NAR4H,0,Yes,Yes,45,Yes,Yes,DSL,Yes,Yes,Yes,Yes,No,Yes,Two year,No,Bank transfer (automatic),51.31,2335.95
+0583-7YHSI,0,No,No,52,Yes,Yes,DSL,Yes,Yes,Yes,Yes,Yes,No,Two year,No,Bank transfer (automatic),42.8,2056.93
+5687-1SURJ,0,Yes,No,33,Yes,Yes,DSL,Yes,No,Yes,Yes,Yes,No,Two year,No,Credit card (automatic),47.78,1630.93
+0598-NZ2I1,0,Yes,No,48,Yes,Yes,DSL,Yes,Yes,Yes,Yes,No,No,One year,No,Bank transfer (automatic),48.65,2431.9
+4375-OJXRD,0,Yes,Yes,50,Yes,Yes,DSL,Yes,No,No,Yes,No,No,Two year,No,Bank transfer (automatic),49.47,2637.85
+2156-HS2D2,0,Yes,Yes,66,No,No,DSL,Yes,Yes,Yes,Yes,No,No,Two year,No,Bank transfer (automatic),42.42,2641.32

@@ -1,0 +1,57 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments (if local to backend)
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+.env.*
+*.local
+
+# Model files (large binaries — commit selectively)
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+models/*.pth
+
+# Generated reports
+reports/*.pdf
+reports/*.html
+
+# Datasets (add intentionally via git lfs or exclude if large)
+datasets/*.csv
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.sw?
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
