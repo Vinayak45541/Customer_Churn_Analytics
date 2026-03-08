@@ -16,13 +16,6 @@ env/
 .env.*
 *.local
 
-# Model files (large binaries — commit selectively)
-models/*.pkl
-models/*.joblib
-models/*.h5
-models/*.pt
-models/*.pth
-
 # Generated reports
 reports/*.pdf
 reports/*.html
