@@ -5,8 +5,8 @@ import pandas as pd
 import io
 import os
 import traceback
-from .predict import predict_churn, generate_analytics_summary
-from .report_generator import generate_pdf_report
+from predict import predict_churn, generate_analytics_summary
+from report_generator import generate_pdf_report
 
 app = FastAPI(title="Customer Churn Analytics Platform API")
 

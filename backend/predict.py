@@ -1,6 +1,6 @@
 import pandas as pd
-from .model_loader import get_model
-from .risk_logic import classify_risk
+from model_loader import get_model
+from risk_logic import classify_risk
 
 def predict_churn(df: pd.DataFrame):
     model = get_model()
